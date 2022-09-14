@@ -8,7 +8,7 @@
 
 <p>
   
-  Uma tela de busca flutuante que trás como resultado ( por um API ) alguns números da covid nos estados brasileiros ( busca isolada ).
+  Uma tela de busca flutuante que trás como resultado ( por intermedio de uma API ) alguns números da covid nos estados brasileiros ( busca isolada ).
   
 </p>
 
