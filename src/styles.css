@@ -1,0 +1,202 @@
+.mainContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(#61a5c2 , #036666);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+    background: rgba( 18, 18, 18, 0.4 );
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    font-size: 35px;
+    border-radius: 15px 15px 0 0;
+    text-transform: uppercase;
+    color: #ebf4f5;
+    animation: flipTitle 1.5s;
+    padding: 25px 31px 25px 30px;
+}
+.title2 {
+    background: rgba( 18, 18, 18, 0.4 );
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    font-size: 35px;
+    border-radius: 15px 15px 0 0;
+    text-transform: uppercase;
+    color: #ebf4f5;
+    animation: flipTitle 1.5s;
+    padding: 25px 31px 25px 30px;
+}
+h1 .icon {
+    padding-right: 5px;
+}
+h2 .icon2 {
+    padding-right: 5px;
+}
+.content01 {
+    background: rgba( 235, 244, 245, 0.45 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    animation: flipTitle 1.5s;
+    padding: 25px 50px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 0 0 15px 15px;
+}
+.content02 {
+    background: rgba( 235, 244, 245, 0.55 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    animation: flipTitle 1.5s;
+    padding: 25px 66px 25px 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 0 0 15px 15px;
+}
+.content01 input {
+    background: transparent;
+    border: 0;
+    font-size: 17px;
+    color: #111111;
+    outline: none;
+    margin-right: 10px;
+}
+.content02 input {
+    background: transparent;
+    border: 0;
+    font-size: 17px;
+    color: #111111;
+    outline: none;
+    margin-right: 10px;
+}
+.content01 input::placeholder {
+    color: #111111;
+}
+.content02 input::placeholder {
+    color: #111111;
+}
+.inputState {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.inputState2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.buttonSearch {
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.4s;
+}
+.buttonSearch2 {
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.4s;
+}
+.buttonSearch:hover {
+    transform: scale(1.4);
+}
+.buttonSearch2:hover {
+    transform: scale(1.4);
+}
+.main {
+    background: #e8e9ed;
+    width: 351px;
+    height: 250px;
+    border-radius: 15px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    color: #111111;
+    align-items: center;
+    animation: flipTitle 1.5s;
+    justify-content: space-around;
+}
+.main2 {
+    background: #e8e9ed;
+    width: 351px;
+    height: 250px;
+    border-radius: 15px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    color: #111111;
+    align-items: center;
+    animation: flipTitle 1.5s;
+    justify-content: space-around;
+}
+.main h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    color: #036666;
+    text-transform: uppercase;
+    margin: 0 0 16px 0;
+}
+.main2 h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    color: #036666;
+    text-transform: uppercase;
+    margin: 0 0 16px 0;
+}
+.mainSpn {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+.mainSpn2 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+.main span {
+    color: #036666;
+    margin-bottom: 18px;
+    font-weight: 500;
+}
+.main2 span {
+    color: #036666;
+    margin-bottom: 18px;
+    font-weight: 500;
+
+}
+@keyframes flipTitle {
+    from {
+        transform: translateX(70%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
