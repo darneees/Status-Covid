@@ -13,10 +13,12 @@
 </p>
 
 
-## ✔️ Tecnologias utilizadas / Frameworks / bibliotecas
+## ✔️ Tecnologias utilizadas / bibliotecas
 
 - ``REACT JS``
 - ``CSS3``
+- ``HTML5``
+
 
 ## Cores Utilizadas
 
