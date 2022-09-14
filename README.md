@@ -23,8 +23,9 @@
 ## Cores Utilizadas
 
 - ``linear-gradient(#61a5c2 , #036666)`` - background
-- ``#`` - textos ( PLACEHOLDER, INPUTS,  ) / ``#ebf4f5`` - Titilo
-- ``#`` -
+- ``background: rgba( 18, 18, 18, 0.4 )`` ``backdrop-filter: blur( 3.5px )`` ``-webkit-backdrop-filter: blur( 3.5px )`` - background ( TITTULO - efeito Glassmorphism )
+- ``#111111`` - textos ( PLACEHOLDER, INPUTS  ) / ``#036666`` - textos ( SPAN )/ ``#ebf4f5`` - Titilo
+- ``#e8e9ed`` - background - ( MAIN )
 
 ## Icones
 
