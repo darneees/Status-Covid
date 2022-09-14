@@ -18,6 +18,7 @@
 - ``REACT JS``
 - ``CSS3``
 - ``HTML5``
+- ``JAVASCRIPT``
 
 
 ## Cores Utilizadas
