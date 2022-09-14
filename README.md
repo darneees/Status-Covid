@@ -8,7 +8,7 @@
 
 <p>
   
-  Uma tela de busca flutuante que trás como resultado alguns números da covid nos estados brasileiros ( busca isolada ).
+  Uma tela de busca flutuante que trás como resultado ( por um API ) alguns números da covid nos estados brasileiros ( busca isolada ).
   
 </p>
 
@@ -32,6 +32,9 @@
 
 https://react-icons.github.io/react-icons
 
+## API utilizada 
+
+https://covid19-brazil-api-docs.vercel.app/
 
 <h3 align="center">
   
